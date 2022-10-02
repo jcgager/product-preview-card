@@ -18,8 +18,14 @@
 </head>
 <body>
   <main class="container">
-    <img src="./images/image-product-mobile.jpg" alt="Chanel Perfume" class="hero-image">
-    <div class="card-body">
+    <div class="hero-image">
+      <picture>
+        <source srcset="./images/image-product-mobile.jpg" media="(max-width: 650px)">
+        <source srcset="./images/image-product-desktop.jpg">
+        <img src="./images/image-product-mobile.jpg" alt="Chanel Perfume" class="chanel">
+      </picture>
+    </div>
+    <div class="card">
       <p class="sub-heading">PERFUME</p>
       <H1 class="main-heading headft">Gabrielle Essence Eau De Parfum</H1>
       <p class="body-text">
@@ -34,7 +40,7 @@
         <img src="./images/icon-cart.svg" alt="cart icon" class="cart-icon">
         <p class="btn-text">Add to Cart</p>
       </div>
-  </div>
+    </div>
   </main>
 </body>
 </html>

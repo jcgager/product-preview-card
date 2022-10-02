@@ -1,5 +1,6 @@
 /********** SETUP **********/
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -15,7 +16,6 @@
   --wht:#FFFFFF;
   --actGreen: #1A4031;
 
-  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif; /* weight: 500 & 700 */
   font-size: 14px;
   font-weight: 500;
@@ -27,7 +27,6 @@ body {
   background-color: var(--bkgrd);
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -40,40 +39,49 @@ body {
 
 .container {
   background-color: var(--wht);
-  border-radius: 9px;
+  border-radius: 10px;
   width: 343px;
   height: 611px;
+  display: flex;
+  flex-direction: column;
 
 }
 
-.hero-image {
+.chanel {
   width: 100%;
   vertical-align: top;
   border-radius: 9px 9px 0 0;
 }
 
-.card-body {
-  margin: 25px;
+.card {
+  align-self: center;
+  width: 85%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 5px 0;
 }
 
 .sub-heading {
   font-size: 12px;
   letter-spacing: 5px;
   color: var(--dkgryBlue);
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
 }
 
 .main-heading {
   color: var(--vdkBlue);
   line-height: 0.96;
   word-spacing: -0.3px;
-  margin-bottom: 16px;
+  /*margin-bottom: 16px;*/
 }
 
 .body-text {
   color: var(--dkgryBlue);
   line-height: 1.62;
-  margin-bottom: 21px;
+  /*margin-bottom: 21px;*/
 }
 
 .price {
@@ -105,9 +113,32 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 15px auto 5px;
 }
 
 .btn-text {
   margin-left: 11px;
+}
+
+.cart-btn:active {
+  background-color: var(--actGreen);
+}
+
+@media screen and (min-width: 650px) {
+
+  .container {
+    width: 600px;
+    height: 450px;
+    flex-direction: row;
+  }
+
+  .chanel {
+    width: 300px;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .card {
+    height: 98%;
+    margin: 0px 30px;
+  }
 }
