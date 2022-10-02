@@ -43,6 +43,7 @@ Mobile view
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- penpot (open source alternative to Figma) 
 
 ### What I learned
 
@@ -56,6 +57,9 @@ On this project, I learned about the <picture> element and how best to transitio
 </picture>
 ```
 I also learned (the hard way) that the <img> is what you callout in css for styling, not the <picture>.
+
+I also learned the basics of [penpot](https://penpot.app/) to first create the components in a designing platform
+so I would have better control over scaling each element.
 
 
 ### Useful resources
