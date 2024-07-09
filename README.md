@@ -47,7 +47,9 @@ Mobile view
 
 ### What I learned
 
-On this project, I learned about the <picture> element and how best to transition from a single column layout for mobile to a two column (side-by-side) layout for larger screens. I have to admit, I got stumped more than once, but this was a great project for me to discover new concepts and now I know how to change images based on the size of the veiwport.
+On this project, I learned about the picture element and how best to transition from a single column layout for mobile to a two column (side-by-side) layout for larger screens.
+<picture>
+I have to admit, I got stumped more than once, but this was a great project for me to discover new concepts and now I know how to change images based on the size of the veiwport.
 
 ```html
 <picture>
@@ -56,7 +58,7 @@ On this project, I learned about the <picture> element and how best to transitio
   <img src="./images/image-product-mobile.jpg" alt="Chanel Perfume" class="chanel">
 </picture>
 ```
-I also learned (the hard way) that the <img> is what you callout in css for styling, not the <picture>.
+I also learned (the hard way) that the "<img>" is what you callout in css for styling, not the "<picture>".
 
 I also learned the basics of [penpot](https://penpot.app/) to first create the components in a designing platform
 so I would have better control over scaling each element.
