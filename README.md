@@ -58,10 +58,10 @@ I have to admit, I got stumped more than once, but this was a great project for 
   <img src="./images/image-product-mobile.jpg" alt="Chanel Perfume" class="chanel">
 </picture>
 ```
-I also learned (the hard way) that the "<img>" is what you callout in css for styling, not the "<picture>".
+I also learned (the hard way) that the "img" is what you callout in css for styling, not the "picture".
 
-I also learned the basics of [penpot](https://penpot.app/) to first create the components in a designing platform
-so I would have better control over scaling each element.
+For this project, I learned the basics of [penpot](https://penpot.app/) to first create the components in a designing platform
+so I would have better control over scaling each element. 
 
 
 ### Useful resources
